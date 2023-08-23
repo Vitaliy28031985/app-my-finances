@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="data-container">
+<div>
+    <form id="add" action="">
+        <button class="add-clos" type="button">clos</button>
+        <input type="text" name="id">
+        <input type="text" name="title">
+        <input type="number" name="profit">
+        <button type="submit">add</button>
+    </form>
+<div class="profit-container">
+    <button type="button" class="open-add">+</button>
+    <ul class="profit-list"></ul>
+    <p class="profit"></p>
+</div>
+</div>
+<div>
+ <form id="spend" action="">
+    <button class="spend-clos" type="button">clos</button>
+    <input type="text" name="id">
+    <input type="text" name="title">
+    <input type="number" name="spend">
+    <button type="submit">add</button>
+</form> 
+<div class="spend-container"> 
+    <button type="button" class="open-spend">+</button>
+<ul class="spend-list"></ul>
+    <p class="spend"></p>
+</div> 
+</div>
+</div>
+<p class="balance"></p>
+
+    <script src="./index.js" ></script>
+</body>
+</html>
